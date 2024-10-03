@@ -20,9 +20,11 @@ Descargar una aplicacion que permita grabar una ruta: Mi ruta
 Hay que pensar una tematica
 	Entre 6 y 10 puntos de interes.
 	Comercios, plazas, bares, monumentos ...
-	Marcar puntos de interes.
+	Marcar puntos de interes. Para asociar las fotos de cada punto de interes.
 	Que permita exportar a fichero. GPX o KML
 	
 	Hay que visualizar los datos sobre un mapa: Google my maps
+		Aquí se pueden asoociar las fotos.
+		Compartirle el proyecto al profesor.
 	
 
