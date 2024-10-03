@@ -12,4 +12,17 @@ Servicio WMS estándar externo u otro servicio recogido en el marco de Infraestr
 
 Servicio de los ofrecidos por Google Maps: 
 	- Marcar una ruta en el mapa, por ejemplo ruta (como llegar) al punto de inicio de algo marcado en el mapa.
+	
+	
+----------------------------- YINCANA ---------------
+Descargar una aplicacion que permita grabar una ruta: Mi ruta
+
+Hay que pensar una tematica
+	Entre 6 y 10 puntos de interes.
+	Comercios, plazas, bares, monumentos ...
+	Marcar puntos de interes.
+	Que permita exportar a fichero. GPX o KML
+	
+	Hay que visualizar los datos sobre un mapa: Google my maps
+	
 
