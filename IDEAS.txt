@@ -1,0 +1,15 @@
+
+Tecnología: 
+	- Angular, React?
+
+Mapa base: 
+	- google maps?
+
+Elementos geolocalizados:
+
+	
+Servicio WMS estándar externo u otro servicio recogido en el marco de Infraestructuras de datos espaciales de OGC:
+
+Servicio de los ofrecidos por Google Maps: 
+	- Marcar una ruta en el mapa, por ejemplo ruta (como llegar) al punto de inicio de algo marcado en el mapa.
+
