@@ -1,14 +1,21 @@
 import React  from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Header from './components/header';
+import Footer from './components/footer';
+import MapComponent from './components/MapComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
+      <Router>
+        <Header />
+        <Routes>
+
+          <Route exact path="/" element={<MapComponent />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }
