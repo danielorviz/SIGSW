@@ -72,7 +72,7 @@ const FiltroComponent = ({ onFilterChange }) => {
                 >
                     <option value="">Todos</option>
                     <option value="Tipo 2">Tipo 2</option>
-                    <option value="CSS">CSS</option>
+                    <option value="CCS">CCS</option>
                     <option value="CHAdeMO">CHAdeMO</option>
                     <option value="Tipo F">Tipo F</option>
                 </select>
