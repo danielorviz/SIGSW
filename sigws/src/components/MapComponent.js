@@ -7,7 +7,7 @@ import { Container } from '@material-ui/core';
 
 const MapComponent = (props) => {
 
-  let{location} = props
+  let{location, geojson} = props
     const [map, setMap] = useState(null); 
      
     useEffect(() => {
@@ -27,7 +27,11 @@ const MapComponent = (props) => {
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '© OpenStreetMap contributors',
         }).addTo(newMap);
-    
+
+        if (geojson) {
+          L.geoJSON(geojson).addTo(newMap);
+        }
+        
         return () => {
           newMap.remove();
         }; 

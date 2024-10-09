@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState }from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/header';
@@ -7,6 +7,20 @@ import MapComponent from './components/MapComponent';
 import FilterComponent from "./components/filters";
 
 function App() {
+
+  const [geojsonGijon, setGeojsonGijon] = useState(null);
+
+  useEffect(() => {
+      
+
+    fetchGeoJSON();
+  }, []);
+
+  const fetchGeoJSON = async () => {
+    const response = await fetch('/cargadores_gijon.geojson'); // Make sure this file is in the public folder
+    const data = await response.json();
+    setGeojsonGijon(data);
+  };
   return (
     <div className="App">
       <Router>
@@ -23,7 +37,7 @@ function App() {
             <Routes>
               <Route exact path="/" element={<MapComponent location="asturias" geojson={null} />} />
               <Route exact path="/oviedo" element={<MapComponent location="oviedo" geojson={null} />} />
-              <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={null} />} />
+              <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={geojsonGijon} />} />
             </Routes>
           </div>
         </div>
