@@ -7,6 +7,9 @@ const useStyles = makeStyles((theme) => ({
     color: '#fff',
     padding: theme.spacing(2),
     marginTop: 'auto',
+    bottom: '0',
+    position: 'fixed',
+    width: '100%'
   },
 }));
 
@@ -15,10 +18,16 @@ function Footer() {
 
   return (
     <footer className={classes.footer}>
-      <Container maxWidth="sm">
-        <Typography variant="body1">
-          © {new Date().getFullYear()} Daniel Orviz Suárez - UO237512. All rights reserved.
+      <Container maxWidth="m">
+        <Typography variant="body1" width="100%">
+          © {new Date().getFullYear()} Master de Ingeniería Web - Universidad de Oviedo - Sistemas de Información Geográfica y Servicios Web.
         </Typography>
+        <Typography variant="body3" width="100%">
+          Daniel Orviz Suárez - UO237512. 
+          Antonio Suárez Crespo - UO270543.
+          Katherine Nicole Gómez Zamora - UO302265
+        </Typography> 
+    
       </Container>
     </footer>
   );
