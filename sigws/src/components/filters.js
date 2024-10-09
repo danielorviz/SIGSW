@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-
+import './filters.css';
 const FiltroComponent = ({ onFilterChange }) => {
     const [tipo, setTipo] = useState("");
     const [distancia, setDistancia] = useState(50); 
     const [potencia, setPotencia] = useState(22);
     const [cabezal, setCabezal] = useState("");
 
-    const handleFilterChange = () => {
+    const handleApplyFilters = () => {
         onFilterChange({
             tipo,
             distancia,
@@ -25,7 +25,6 @@ const FiltroComponent = ({ onFilterChange }) => {
                     value={tipo}
                     onChange={(e) => {
                         setTipo(e.target.value);
-                        handleFilterChange();
                     }}
                 >
                     <option value="">Todos</option>
@@ -44,7 +43,6 @@ const FiltroComponent = ({ onFilterChange }) => {
                     value={distancia}
                     onChange={(e) => {
                         setDistancia(e.target.value);
-                        handleFilterChange();
                     }}
                 />
             </div>
@@ -59,7 +57,6 @@ const FiltroComponent = ({ onFilterChange }) => {
                     value={potencia}
                     onChange={(e) => {
                         setPotencia(e.target.value);
-                        handleFilterChange();
                     }}
                 />
             </div>
@@ -71,7 +68,6 @@ const FiltroComponent = ({ onFilterChange }) => {
                     value={cabezal}
                     onChange={(e) => {
                         setCabezal(e.target.value);
-                        handleFilterChange();
                     }}
                 >
                     <option value="">Todos</option>
@@ -81,7 +77,12 @@ const FiltroComponent = ({ onFilterChange }) => {
                     <option value="Tipo F">Tipo F</option>
                 </select>
             </div>
+            <div>
+                <button onClick={handleApplyFilters}>Aplicar Filtros</button>
+            </div>
         </div>
+
+
     );
 };
 
