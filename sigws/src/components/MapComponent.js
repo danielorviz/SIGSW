@@ -11,8 +11,8 @@ const MapComponent = (props) => {
     const [map, setMap] = useState(null); 
      
     useEffect(() => {
-      let coordenates = [43.5320141, -5.8543232]
-      let zoom = 13 
+      let coordenates = [43.3628, -5.8457]
+      let zoom = 13.5 
       console.log(location)
       if(location === "gijon"){
 

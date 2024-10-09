@@ -24,6 +24,9 @@ function Header() {
         SIGSW
       </Typography>
       <Toolbar>
+      <Link to="/" className={classes.link}>
+          <Button color="inherit">General</Button>
+        </Link>
         <Link to="/oviedo" className={classes.link}>
           <Button color="inherit">Oviedo</Button>
         </Link>
