@@ -5,12 +5,23 @@ import 'leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
 import 'leaflet.awesome-markers';
 import { Container } from '@material-ui/core';
 
-const MapComponent = ( geojson) => {
+const MapComponent = (props) => {
 
-    const [map, setMap] = useState(null);
-
+  let{location} = props
+    const [map, setMap] = useState(null); 
+     
     useEffect(() => {
-        const newMap = L.map('map').setView([43.5320141, -5.6543232], 13);
+      let coordenates = [43.5320141, -5.8543232]
+      let zoom = 13 
+      console.log(location)
+      if(location === "gijon"){
+
+        coordenates = [43.537385, -5.660194]
+      }
+      if(location === "asturias"){ 
+        zoom = 9
+      }
+        const newMap = L.map('map').setView(coordenates, zoom);
         setMap(newMap);
     
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -19,8 +30,8 @@ const MapComponent = ( geojson) => {
     
         return () => {
           newMap.remove();
-        };
-      }, []);
+        }; 
+      }, [location]);
     
       
   return ( 

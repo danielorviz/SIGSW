@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Header />
         <Routes>
-        <Route exact path="/" element={<MapComponent geojson={null} />} />
-        <Route exact path="/oviedo" element={<MapComponent geojson={null} />} />
-          <Route exact path="/gijon" element={<MapComponent geojson={null} />} />
+          <Route exact path="/" element={<MapComponent location="asturias" geojson={null}/>}  />
+          <Route exact path="/oviedo" element={<MapComponent location="oviedo" geojson={null} />} />
+          <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={null} />} />
         </Routes>
         <Footer />
       </Router>
