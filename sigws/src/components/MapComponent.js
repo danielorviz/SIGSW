@@ -5,7 +5,7 @@ import 'leaflet.awesome-markers/dist/leaflet.awesome-markers.css';
 import 'leaflet.awesome-markers';
 import { Container } from '@material-ui/core';
 
-const MapComponent = () => {
+const MapComponent = ( geojson) => {
 
     const [map, setMap] = useState(null);
 
