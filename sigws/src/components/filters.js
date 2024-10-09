@@ -28,8 +28,8 @@ const FiltroComponent = ({ onFilterChange }) => {
                     }}
                 >
                     <option value="">Todos</option>
-                    <option value="Socket Only">Socket Only</option>
-                    <option value="Tethered Connector">Tethered Connector</option>
+                    <option value="Socket Only">Solo enchufe</option>
+                    <option value="Tethered Connector">Conector fijo</option>
                 </select>
             </div>
 
