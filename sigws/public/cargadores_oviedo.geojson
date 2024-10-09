@@ -3,652 +3,852 @@
     "features": [
         {
             "type": "Feature",
-            "properties": {
-                "name": "Paseo de La Florida (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.876762,
-                    43.367574
+                    "-5.876762",
+                    "43.367574"
                 ]
+            },
+            "properties": {
+                "Id": 1,
+                "Nombre": "Paseo de La Florida (Ayunt. Oviedo)",
+                "Cabezal": "CCS, Tipo 2",
+                "Tipo": "Socket Only, Tethered Connector",
+                "Voltaje": "22kw,100kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Mercadona La Florida"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.872562,
-                    43.366521
+                    "-5.872562",
+                    "43.366521"
                 ]
+            },
+            "properties": {
+                "Id": 2,
+                "Nombre": "Mercadona La Florida",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Jos\u00e9 Mar\u00eda Mart\u00ednez Cachero (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.874963,
-                    43.363554
+                    "-5.874963",
+                    "43.363554"
                 ]
+            },
+            "properties": {
+                "Id": 3,
+                "Nombre": "Calle Jos\u00e9 Mar\u00eda Mart\u00ednez Cachero (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connection",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Alejandro Casona (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.865971,
-                    43.362473
+                    "-5.865971",
+                    "43.362473"
                 ]
+            },
+            "properties": {
+                "Id": 4,
+                "Nombre": "Calle Alejandro Casona (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle de la Regenta (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.86536,
-                    43.360273
+                    "-5.86536",
+                    "43.360273"
                 ]
+            },
+            "properties": {
+                "Id": 5,
+                "Nombre": "Calle de la Regenta (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Juli\u00e1n Claver\u00eda (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.868774,
-                    43.354286
+                    "-5.868774",
+                    "43.354286"
                 ]
+            },
+            "properties": {
+                "Id": 6,
+                "Nombre": "Calle Juli\u00e1n Claver\u00eda (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Celestino \u00c1lvarez (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.866254,
-                    43.352049
+                    "-5.866254",
+                    "43.352049"
                 ]
+            },
+            "properties": {
+                "Id": 7,
+                "Nombre": "Calle Celestino \u00c1lvarez (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Pilo\u00f1a (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.861924,
-                    43.352152
+                    "-5.861924",
+                    "43.352152"
                 ]
+            },
+            "properties": {
+                "Id": 8,
+                "Nombre": "Calle Pilo\u00f1a (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle El Valle (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.862269,
-                    43.354074
+                    "-5.862269",
+                    "43.354074"
                 ]
+            },
+            "properties": {
+                "Id": 9,
+                "Nombre": "Calle El Valle (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Mercadona Montecerr\u00e1u"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.860018,
-                    43.35465
+                    "-5.860018",
+                    "43.35465"
                 ]
+            },
+            "properties": {
+                "Id": 10,
+                "Nombre": "Mercadona Montecerr\u00e1u",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "3.7kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Palacio de Congresos Oviedo (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.861647,
-                    43.357476
+                    "-5.861647",
+                    "43.357476"
                 ]
+            },
+            "properties": {
+                "Id": 11,
+                "Nombre": "Palacio de Congresos Oviedo (Ayunt. Oviedo)",
+                "Cabezal": "CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "120kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Hangzhou (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.857427,
-                    43.374259
+                    "-5.857427",
+                    "43.374259"
                 ]
+            },
+            "properties": {
+                "Id": 12,
+                "Nombre": "Calle Hangzhou (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Pe\u00f1a Santa de Enol (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.857297,
-                    43.366209
+                    "-5.857297",
+                    "43.366209"
                 ]
+            },
+            "properties": {
+                "Id": 13,
+                "Nombre": "Calle Pe\u00f1a Santa de Enol (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Arquitecto Reguera (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.855464,
-                    43.364687
+                    "-5.855464",
+                    "43.364687"
                 ]
+            },
+            "properties": {
+                "Id": 14,
+                "Nombre": "Calle Arquitecto Reguera (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Marqu\u00e9s de Pidal (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.853309,
-                    43.364136
+                    "-5.853309",
+                    "43.364136"
                 ]
+            },
+            "properties": {
+                "Id": 15,
+                "Nombre": "Calle Marqu\u00e9s de Pidal (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Luis Fern\u00e1ndez-Vega Sanz (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.854765,
-                    43.360218
+                    "-5.854765",
+                    "43.360218"
                 ]
+            },
+            "properties": {
+                "Id": 16,
+                "Nombre": "Calle Luis Fern\u00e1ndez-Vega Sanz (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Plaza de Espa\u00f1a (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.852479,
-                    43.359833
+                    "-5.852479",
+                    "43.359833"
                 ]
+            },
+            "properties": {
+                "Id": 17,
+                "Nombre": "Plaza de Espa\u00f1a (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Campus Llamaquique (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.854209,
-                    43.35827
+                    "-5.854209",
+                    "43.35827"
                 ]
+            },
+            "properties": {
+                "Id": 18,
+                "Nombre": "Univ. Oviedo Campus Llamaquique (Zunder)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Leopoldo Calvo Sotelo (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.853122,
-                    43.357654
+                    "-5.853122",
+                    "43.357654"
                 ]
+            },
+            "properties": {
+                "Id": 19,
+                "Nombre": "Calle Leopoldo Calvo Sotelo (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Plaza de la Gesta de Oviedo"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.852141,
-                    43.357892
+                    "-5.852141",
+                    "43.357892"
                 ]
+            },
+            "properties": {
+                "Id": 20,
+                "Nombre": "Parking Plaza de la Gesta de Oviedo",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Vald\u00e9s Salas (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.851106,
-                    43.355211
+                    "-5.851106",
+                    "43.355211"
                 ]
+            },
+            "properties": {
+                "Id": 21,
+                "Nombre": "Calle Vald\u00e9s Salas (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Campus Catalanes (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.851746,
-                    43.354768
+                    "-5.851746",
+                    "43.354768"
                 ]
+            },
+            "properties": {
+                "Id": 22,
+                "Nombre": "Univ. Oviedo Campus Catalanes (Zunder)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle de Otero (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.838145,
-                    43.353887
+                    "-5.838145",
+                    "43.353887"
                 ]
+            },
+            "properties": {
+                "Id": 23,
+                "Nombre": "Calle de Otero (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Arzobispo Guisasola (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.844243,
-                    43.358491
+                    "-5.844243",
+                    "43.358491"
                 ]
+            },
+            "properties": {
+                "Id": 24,
+                "Nombre": "Calle Arzobispo Guisasola (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Padre Su\u00e1rez (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.842706,
-                    43.358816
+                    "-5.842706",
+                    "43.358816"
                 ]
+            },
+            "properties": {
+                "Id": 25,
+                "Nombre": "Calle Padre Su\u00e1rez (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Santa Susana (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.850103,
-                    43.359381
+                    "-5.850103",
+                    "43.359381"
                 ]
+            },
+            "properties": {
+                "Id": 26,
+                "Nombre": "Calle Santa Susana (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Jer\u00f3nimo Ibr\u00e1n (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.85088,
-                    43.368216
+                    "-5.85088",
+                    "43.368216"
                 ]
+            },
+            "properties": {
+                "Id": 27,
+                "Nombre": "Calle Jer\u00f3nimo Ibr\u00e1n (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking centro comercial Salesas"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.849158,
-                    43.367123
+                    "-5.849158",
+                    "43.367123"
                 ]
+            },
+            "properties": {
+                "Id": 28,
+                "Nombre": "Parking centro comercial Salesas",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Mercadona Oviedo"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.848768,
-                    43.367899
+                    "-5.848768",
+                    "43.367899"
                 ]
+            },
+            "properties": {
+                "Id": 29,
+                "Nombre": "Mercadona Oviedo",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "3.7kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking APK2 Longoria Carbajal"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.848457,
-                    43.364628
+                    "-5.848457",
+                    "43.364628"
                 ]
+            },
+            "properties": {
+                "Id": 30,
+                "Nombre": "Parking APK2 Longoria Carbajal",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Foncalada"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.846421,
-                    43.365029
+                    "-5.846421",
+                    "43.365029"
                 ]
+            },
+            "properties": {
+                "Id": 31,
+                "Nombre": "Calle Foncalada",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Foncalada (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.846263,
-                    43.36595
+                    "-5.846263",
+                    "43.36595"
                 ]
+            },
+            "properties": {
+                "Id": 32,
+                "Nombre": "Calle Foncalada (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Calle V\u00edctor Ch\u00e1varri"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.843685,
-                    43.364754
+                    "-5.843685",
+                    "43.364754"
                 ]
+            },
+            "properties": {
+                "Id": 33,
+                "Nombre": "Parking Calle V\u00edctor Ch\u00e1varri",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Hotel Regente"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.8428,
-                    43.36424
+                    "-5.8428",
+                    "43.36424"
                 ]
+            },
+            "properties": {
+                "Id": 34,
+                "Nombre": "Hotel Regente",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Fernando Vela (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.842421,
-                    43.366614
+                    "-5.842421",
+                    "43.366614"
                 ]
+            },
+            "properties": {
+                "Id": 35,
+                "Nombre": "Calle Fernando Vela (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Melqu\u00edades Cabal (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.842407,
-                    43.36798
+                    "-5.842407",
+                    "43.36798"
                 ]
+            },
+            "properties": {
+                "Id": 36,
+                "Nombre": "Calle Melqu\u00edades Cabal (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Avenida de Torrelavega (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.836144,
-                    43.36386
+                    "-5.836144",
+                    "43.36386"
                 ]
+            },
+            "properties": {
+                "Id": 37,
+                "Nombre": "Avenida de Torrelavega (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Joaqu\u00edn Blume (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.831111,
-                    43.366095
+                    "-5.831111",
+                    "43.366095"
                 ]
+            },
+            "properties": {
+                "Id": 38,
+                "Nombre": "Calle Joaqu\u00edn Blume (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Pumar\u00edn"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.847378,
-                    43.369032
+                    "-5.847378",
+                    "43.369032"
                 ]
+            },
+            "properties": {
+                "Id": 39,
+                "Nombre": "Parking Pumar\u00edn",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Palmira Villa Gonz\u00e1lez-R\u00edo (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.847156,
-                    43.370009
+                    "-5.847156",
+                    "43.370009"
                 ]
+            },
+            "properties": {
+                "Id": 40,
+                "Nombre": "Calle Palmira Villa Gonz\u00e1lez-R\u00edo (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Del Mil\u00e1n (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.841367,
-                    43.368743
+                    "-5.841367",
+                    "43.368743"
                 ]
+            },
+            "properties": {
+                "Id": 41,
+                "Nombre": "Univ. Oviedo Del Mil\u00e1n (Zunder)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Avenida del Cant\u00e1brico (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.843198,
-                    43.372561
+                    "-5.843198",
+                    "43.372561"
                 ]
+            },
+            "properties": {
+                "Id": 42,
+                "Nombre": "Avenida del Cant\u00e1brico (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Lidl Oviedo"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.834581,
-                    43.377407
+                    "-5.834581",
+                    "43.377407"
                 ]
+            },
+            "properties": {
+                "Id": 43,
+                "Nombre": "Lidl Oviedo",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "11kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Juan L\u00f3pez-Arranz (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.831921,
-                    43.375138
+                    "-5.831921",
+                    "43.375138"
                 ]
+            },
+            "properties": {
+                "Id": 44,
+                "Nombre": "Calle Juan L\u00f3pez-Arranz (Ayunt. Oviedo)",
+                "Cabezal": "CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "100kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Carretera del Rub\u00edn (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.825502,
-                    43.372927
+                    "-5.825502",
+                    "43.372927"
                 ]
+            },
+            "properties": {
+                "Id": 45,
+                "Nombre": "Carretera del Rub\u00edn (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Alimerka Prado de la Vega"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.816731,
-                    43.379877
+                    "-5.816731",
+                    "43.379877"
                 ]
+            },
+            "properties": {
+                "Id": 46,
+                "Nombre": "Alimerka Prado de la Vega",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Daniel Moyano (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.824005,
-                    43.382264
+                    "-5.824005",
+                    "43.382264 "
                 ]
+            },
+            "properties": {
+                "Id": 47,
+                "Nombre": "Calle Daniel Moyano (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Sabino \u00c1lvarez Gend\u00edn (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.818248,
-                    43.38322
+                    "-5.818248",
+                    "43.38322"
                 ]
+            },
+            "properties": {
+                "Id": 48,
+                "Nombre": "Calle Sabino \u00c1lvarez Gend\u00edn (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Centro Asturiano de Oviedo"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.874379,
-                    43.380473
+                    "-5.874379",
+                    "43.380473"
                 ]
+            },
+            "properties": {
+                "Id": 49,
+                "Nombre": "Centro Asturiano de Oviedo",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Luis Su\u00e1rez \u00abXimielga\u00bb (Ayunt. Oviedo)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.795391,
-                    43.377957
+                    "-5.795391",
+                    "43.377957"
                 ]
+            },
+            "properties": {
+                "Id": 50,
+                "Nombre": "Calle Luis Su\u00e1rez \u00abXimielga\u00bb (Ayunt. Oviedo)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "22kw"
             }
         }
     ]

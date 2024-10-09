@@ -3,535 +3,699 @@
     "features": [
         {
             "type": "Feature",
-            "properties": {
-                "name": "Gij\u00f3n - Oriental"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.697004,
-                    43.540492
+                    "-5.697004",
+                    "43.540492"
                 ]
+            },
+            "properties": {
+                "Id": 51,
+                "Nombre": "Gij\u00f3n - Oriental",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.5kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Lidl Gij\u00f3n"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.692192,
-                    43.535017
+                    "-5.692192",
+                    "43.535017"
                 ]
+            },
+            "properties": {
+                "Id": 52,
+                "Nombre": "Lidl Gij\u00f3n",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "11kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "E.S. Ballenoil La Calzada"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.690133,
-                    43.535035
+                    "-5.690133",
+                    "43.535035"
                 ]
+            },
+            "properties": {
+                "Id": 53,
+                "Nombre": "E.S. Ballenoil La Calzada",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "El Corte Ingl\u00e9s Hipercor (Gij\u00f3n)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.679222,
-                    43.524065
+                    "-5.679222",
+                    "43.524065"
                 ]
+            },
+            "properties": {
+                "Id": 54,
+                "Nombre": "El Corte Ingl\u00e9s Hipercor (Gij\u00f3n)",
+                "Cabezal": "CEE 7/4;Schuko;Tipo F",
+                "Tipo": "Socket Only",
+                "Voltaje": "3.7kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parque de Carlos Marx"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.6726,
-                    43.536609
+                    "-5.6726",
+                    "43.536609"
                 ]
+            },
+            "properties": {
+                "Id": 55,
+                "Nombre": "Parque de Carlos Marx",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Mercadona Gij\u00f3n"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.672012,
-                    43.537896
+                    "-5.672012",
+                    "43.537896"
                 ]
+            },
+            "properties": {
+                "Id": 56,
+                "Nombre": "Mercadona Gij\u00f3n",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "3.7kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Espig\u00f3n"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.666568,
-                    43.54325
+                    "-5.666568",
+                    "43.54325"
                 ]
+            },
+            "properties": {
+                "Id": 57,
+                "Nombre": "Parking Espig\u00f3n",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle \u00c1lvarez Garaya 10"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.665551,
-                    43.541324
+                    "-5.665551",
+                    "43.541324"
                 ]
+            },
+            "properties": {
+                "Id": 58,
+                "Nombre": "Calle \u00c1lvarez Garaya 10",
+                "Cabezal": "CCS,Tipo 2,CHAdeMO",
+                "Tipo": "Socket Only,Tethered Connection",
+                "Voltaje": "22kw,43kw,50kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle \u00c1lvaro de Albornoz"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.66642,
-                    43.537916
+                    "-5.66642",
+                    "43.537916"
                 ]
+            },
+            "properties": {
+                "Id": 59,
+                "Nombre": "Calle \u00c1lvaro de Albornoz",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Juan Alvargonzalez"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.668825,
-                    43.53031
+                    "-5.668825",
+                    "43.53031"
                 ]
+            },
+            "properties": {
+                "Id": 60,
+                "Nombre": "Calle Juan Alvargonzalez",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Avenida Gaspar Garc\u00eda Laviana"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.665873,
-                    43.525782
+                    "-5.665873",
+                    "43.525782"
                 ]
+            },
+            "properties": {
+                "Id": 61,
+                "Nombre": "Avenida Gaspar Garc\u00eda Laviana",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle R\u00edo de Oro"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.663792,
-                    43.527558
+                    "-5.663792",
+                    "43.527558"
                 ]
+            },
+            "properties": {
+                "Id": 62,
+                "Nombre": "Calle R\u00edo de Oro",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle La Argandona"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.663979,
-                    43.535503
+                    "-5.663979",
+                    "43.535503"
                 ]
+            },
+            "properties": {
+                "Id": 63,
+                "Nombre": "Calle La Argandona",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "APK2 Parking Plaza de Europa"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.663596,
-                    43.538483
+                    "-5.663596",
+                    "43.538483"
                 ]
+            },
+            "properties": {
+                "Id": 64,
+                "Nombre": "APK2 Parking Plaza de Europa",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Periodista Adeflor"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.661913,
-                    43.538026
+                    "-5.661913",
+                    "43.538026"
                 ]
+            },
+            "properties": {
+                "Id": 65,
+                "Nombre": "Calle Periodista Adeflor",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.3kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Jardines del Na\u00fatico (Telepark)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.660199,
-                    43.542192
+                    "-5.660199",
+                    "43.542192"
                 ]
+            },
+            "properties": {
+                "Id": 66,
+                "Nombre": "Parking Jardines del Na\u00fatico (Telepark)",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Antigua Pescaderia Municipal"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.662169,
-                    43.544436
+                    "-5.662169",
+                    "43.544436"
                 ]
+            },
+            "properties": {
+                "Id": 67,
+                "Nombre": "Antigua Pescaderia Municipal",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Plaza San Miguel"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.658071,
-                    43.539997
+                    "-5.658071",
+                    "43.539997"
                 ]
+            },
+            "properties": {
+                "Id": 68,
+                "Nombre": "Plaza San Miguel",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Zarracina"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.656813,
-                    43.536984
+                    "-5.656813",
+                    "43.536984"
                 ]
+            },
+            "properties": {
+                "Id": 69,
+                "Nombre": "Parking Zarracina",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "8D Calle Pe\u00f1alba"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.654622,
-                    43.535414
+                    "-5.654622",
+                    "43.535414"
                 ]
+            },
+            "properties": {
+                "Id": 70,
+                "Nombre": "8D Calle Pe\u00f1alba",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Plaza Bego\u00f1a"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.660194,
-                    43.537385
+                    "-5.660194",
+                    "43.537385"
                 ]
+            },
+            "properties": {
+                "Id": 71,
+                "Nombre": "Parking Plaza Bego\u00f1a",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "7 Avenida de El Llano"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.66031,
-                    43.534402
+                    "-5.66031",
+                    "43.534402"
                 ]
+            },
+            "properties": {
+                "Id": 72,
+                "Nombre": "7 Avenida de El Llano",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Canga Arg\u00fcelles"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.650905,
-                    43.538651
+                    "-5.650905",
+                    "43.538651"
                 ]
+            },
+            "properties": {
+                "Id": 73,
+                "Nombre": "Calle Canga Arg\u00fcelles",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Parking Parque de la F\u00e1brica de Gas"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.651187,
-                    43.539631
+                    "-5.651187",
+                    "43.539631"
                 ]
+            },
+            "properties": {
+                "Id": 74,
+                "Nombre": "Parking Parque de la F\u00e1brica de Gas",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Manso"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.647931,
-                    43.53921
+                    "-5.647931",
+                    "43.53921"
                 ]
+            },
+            "properties": {
+                "Id": 75,
+                "Nombre": "Calle Manso",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Tethered Connector",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Acceso al Parque"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.646362,
-                    43.537964
+                    "-5.646362",
+                    "43.537964"
                 ]
+            },
+            "properties": {
+                "Id": 76,
+                "Nombre": "Acceso al Parque",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Calle Avelino Gonz\u00e1lez Mallada"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.649169,
-                    43.532691
+                    "-5.649169",
+                    "43.532691"
                 ]
+            },
+            "properties": {
+                "Id": 77,
+                "Nombre": "Calle Avelino Gonz\u00e1lez Mallada",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Mercadona Gij\u00f3n Pintor Luis Pardo"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.64654,
-                    43.530786
+                    "-5.64654",
+                    "43.530786"
                 ]
+            },
+            "properties": {
+                "Id": 78,
+                "Nombre": "Mercadona Gij\u00f3n Pintor Luis Pardo",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "3.7kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "El Molin\u00f3n-Enrique Castro Quini"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.637534,
-                    43.534971
+                    "-5.637534",
+                    "43.534971"
                 ]
+            },
+            "properties": {
+                "Id": 79,
+                "Nombre": "El Molin\u00f3n-Enrique Castro Quini",
+                "Cabezal": "CCS,CHAdeMO,Tipo 2",
+                "Tipo": "Socket Only,Tethered Connector",
+                "Voltaje": "7.4kw,43kw,50kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "C\u00e1mara de Comercio"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.636082,
-                    43.541552
+                    "-5.636082",
+                    "43.541552"
                 ]
+            },
+            "properties": {
+                "Id": 80,
+                "Nombre": "C\u00e1mara de Comercio",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "E.S. Cepsa Gij\u00f3n (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.64138,
-                    43.524606
+                    "-5.64138",
+                    "43.524606"
                 ]
+            },
+            "properties": {
+                "Id": 81,
+                "Nombre": "E.S. Cepsa Gij\u00f3n (Zunder)",
+                "Cabezal": "CCS,CHAdeMO,Tipo 2",
+                "Tipo": "Socket Only,Tethered Connector",
+                "Voltaje": "7.4kw,43kw,50kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo EPI (EDP)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.636648,
-                    43.524216
+                    "-5.636648",
+                    "43.524216"
                 ]
+            },
+            "properties": {
+                "Id": 82,
+                "Nombre": "Univ. Oviedo EPI (EDP)",
+                "Cabezal": "Tipo 2,CCS,CHAdeMO",
+                "Tipo": "Socket Only,Tethered Connector",
+                "Voltaje": "43kw,50kw,7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Ed. INTRA"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.62373,
-                    43.525522
+                    "-5.62373",
+                    "43.525522"
                 ]
+            },
+            "properties": {
+                "Id": 83,
+                "Nombre": "Univ. Oviedo Ed. INTRA",
+                "Cabezal": "Tipo 2,CCS,CHAdeMO",
+                "Tipo": "Socket Only,Tethered Connector",
+                "Voltaje": "22kw,50kw,7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Marina Civil Gij\u00f3n (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.629147,
-                    43.525599
+                    "-5.629147",
+                    "43.525599"
                 ]
+            },
+            "properties": {
+                "Id": 84,
+                "Nombre": "Univ. Oviedo Marina Civil Gij\u00f3n (Zunder)",
+                "Cabezal": "CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "20kw,100kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Biblioteca Gij\u00f3n (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.625256,
-                    43.5248
+                    "-5.625256",
+                    "43.5248"
                 ]
+            },
+            "properties": {
+                "Id": 85,
+                "Nombre": "Univ. Oviedo Biblioteca Gij\u00f3n (Zunder)",
+                "Cabezal": "CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "25kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Oviedo Aulario Sur (Zunder)"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.623661,
-                    43.523529
+                    "-5.623661",
+                    "43.523529"
                 ]
+            },
+            "properties": {
+                "Id": 86,
+                "Nombre": "Univ. Oviedo Aulario Sur (Zunder)",
+                "Cabezal": "CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "25kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Univ. Laboral Aparcamiento Parque Cient\u00edfico y Tecnol\u00f3gico"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.613044,
-                    43.523476
+                    "-5.613044",
+                    "43.523476"
                 ]
+            },
+            "properties": {
+                "Id": 87,
+                "Nombre": "Univ. Laboral Aparcamiento Parque Cient\u00edfico y Tecnol\u00f3gico",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Universidad Laboral"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.612864,
-                    43.524288
+                    "-5.612864",
+                    "43.524288 "
                 ]
+            },
+            "properties": {
+                "Id": 88,
+                "Nombre": "Universidad Laboral",
+                "Cabezal": "Tipo 2,CCS,CHAdeMO",
+                "Tipo": "Socket Only,Tethered Connector",
+                "Voltaje": "43kw,45kw,50kw,7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Tanatorio Cabue\u00f1es"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.609279,
-                    43.524776
+                    "-5.609279",
+                    "43.524776"
                 ]
+            },
+            "properties": {
+                "Id": 89,
+                "Nombre": "Tanatorio Cabue\u00f1es",
+                "Cabezal": "Tipo 2,CCS",
+                "Tipo": "Socket Only",
+                "Voltaje": "120kw,22kw,7.4kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Club De Golf Castiello"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.6387,
-                    43.502059
+                    "-5.6387",
+                    "43.502059"
                 ]
+            },
+            "properties": {
+                "Id": 90,
+                "Nombre": "Club De Golf Castiello",
+                "Cabezal": "Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "22kw"
             }
         },
         {
             "type": "Feature",
-            "properties": {
-                "name": "Colegio Coraz\u00f3n de Mar\u00eda Gij\u00f3n"
-            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -5.663061,
-                    43.516852
+                    "-5.663061",
+                    "43.516852"
                 ]
+            },
+            "properties": {
+                "Id": 91,
+                "Nombre": "Colegio Coraz\u00f3n de Mar\u00eda Gij\u00f3n",
+                "Cabezal": "CCS,Tipo 2",
+                "Tipo": "Socket Only",
+                "Voltaje": "7.4kw,60kw"
             }
         }
     ]
