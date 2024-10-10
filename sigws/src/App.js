@@ -1,49 +1,34 @@
-import React, { useEffect, useState }from 'react';
+import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
 import MapComponent from './components/MapComponent';
 import FilterComponent from "./components/filters";
 
 function App() {
-
-  const [geojsonGijon, setGeojsonGijon] = useState(null);
-
-  useEffect(() => {
-      
-
-    fetchGeoJSON();
-  }, []);
-
-  const fetchGeoJSON = async () => {
-    const response = await fetch('/cargadores_gijon.geojson'); // Make sure this file is in the public folder
-    const data = await response.json();
-    setGeojsonGijon(data);
-  };
   return (
-    <div className="App">
-      <Router>
+      <div className="App">
+        <Router>
+          <Header />
+          <div className="main-container">
+            {/* Left: Filter component */}
+            <div className="filter-container">
+              <FilterComponent />
+            </div>
 
-        <Header />
-        <div className="main-container">
-          {/* Left: Filter component */}
-          <div className="filter-container">
-            <FilterComponent />
+            {/* Right: Map component */}
+            <div className="map-container">
+              <Routes>
+                <Route exact path="/" element={<MapComponent location="asturias" />} />
+                <Route exact path="/oviedo" element={<MapComponent location="oviedo" />} />
+                <Route exact path="/gijon" element={<MapComponent location="gijon" />} />
+              </Routes>
+            </div>
           </div>
-
-          {/* Right: Map component */}
-          <div className="map-container">
-            <Routes>
-              <Route exact path="/" element={<MapComponent location="asturias" geojson={null} />} />
-              <Route exact path="/oviedo" element={<MapComponent location="oviedo" geojson={null} />} />
-              <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={geojsonGijon} />} />
-            </Routes>
-          </div>
-        </div>
-        <Footer />
-      </Router>
-    </div>
+          <Footer />
+        </Router>
+      </div>
   );
 }
 
