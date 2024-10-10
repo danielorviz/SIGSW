@@ -1,4 +1,5 @@
-import React, { useEffect, useState }from 'react';
+
+import React, { useEffect, useState } from 'react';
 import './styles/App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
@@ -9,17 +10,17 @@ import FilterComponent from "./components/Filters";
 function App() {
 
   const [geojsonGijon, setGeojsonGijon] = useState(null);
-  const [showFilters, setShowFilters] = useState(false);  
+  const [showFilters, setShowFilters] = useState(false);
 
 
   useEffect(() => {
-      
+
 
     fetchGeoJSON();
   }, []);
 
   const fetchGeoJSON = async () => {
-    const response = await fetch('/cargadores_gijon.geojson');  
+    const response = await fetch('/cargadores_gijon.geojson');
     const data = await response.json();
     setGeojsonGijon(data);
   };
@@ -33,8 +34,8 @@ function App() {
     <div className="App">
       <Router>
 
-        <Header /> 
-        <div className="main-container"> 
+        <Header />
+        <div className="main-container">
           <button onClick={toggleFilters} style={{ margin: '20px' }}>
             {showFilters ? 'Ocultar Filtros' : 'Mostrar Filtros'}
           </button>
@@ -42,7 +43,7 @@ function App() {
             <div className="filter-container">
               <FilterComponent />
             </div>
-          )} 
+          )}
 
           {/* Right: Map component */}
           <div className="map-container">
@@ -52,8 +53,8 @@ function App() {
               <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={geojsonGijon} />} />
             </Routes>
           </div>
+          <Footer />
         </div>
-        <Footer />
       </Router>
     </div>
   );
