@@ -12,7 +12,7 @@ const MapComponent = (props) => {
 
   // Define the custom icon for the markers
   const customIcon = L.icon({
-    iconUrl: '/charging.jpg',  // Example icon from Icons8
+    iconUrl: '/charging.jpg',   
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     popupAnchor: [0, -38],
@@ -80,7 +80,15 @@ const MapComponent = (props) => {
       const geojsonLayer = L.geoJSON(geojsonData, {
         pointToLayer: (feature, latlng) => {
           // Use the custom icon for each marker
-          return L.marker(latlng, { icon: customIcon });
+          const { Id, Nombre, Cabezal, Tipo, Voltaje } = feature.properties;
+          return L.marker(latlng, { icon: customIcon })
+              .bindPopup(`
+              <b>${Nombre}</b><br/>
+              ID: ${Id}<br/>
+              Cabezal: ${Cabezal}<br/>
+              Tipo: ${Tipo}<br/>
+              Voltaje: ${Voltaje}
+            `);
         }
       }).addTo(map);
 
