@@ -38,7 +38,7 @@ const FiltroComponent = ({ onFilterChange }) => {
                 <input
                     type="range"
                     id="distancia"
-                    min="0"
+                    min="1"
                     max="200"
                     value={distancia}
                     onChange={(e) => {
