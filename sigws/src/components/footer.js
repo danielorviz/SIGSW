@@ -7,8 +7,8 @@ const useStyles = makeStyles((theme) => ({
     color: '#fff',
     padding: theme.spacing(2),
     marginTop: 'auto',
-    bottom: '0',
-    position: 'fixed',
+    bottom: '0', 
+    position:'fixed',
     width: '100%'
   },
 }));

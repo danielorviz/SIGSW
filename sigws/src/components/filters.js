@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './filters.css';
+import '../styles/filters.css';
 const FiltroComponent = ({ onFilterChange }) => {
     const [tipo, setTipo] = useState("");
     const [distancia, setDistancia] = useState(50); 
