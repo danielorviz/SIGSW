@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import MapComponent from './components/MapComponent';
 import FilterComponent from "./components/Filters";
+import Modal from "./components/Modal";
 
 function App() {
 
@@ -33,19 +34,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-
-        <Header />
+        <Header toggleFilters={toggleFilters} />
         <div className="main-container">
-          <button onClick={toggleFilters} style={{ margin: '20px' }}>
-            {showFilters ? 'Ocultar Filtros' : 'Mostrar Filtros'}
-          </button>
-          {showFilters && (
-            <div className="filter-container">
-              <FilterComponent />
-            </div>
-          )}
-
-          {/* Right: Map component */}
           <div className="map-container">
             <Routes>
               <Route exact path="/" element={<MapComponent location="asturias" geojson={null} />} />
@@ -53,8 +43,11 @@ function App() {
               <Route exact path="/gijon" element={<MapComponent location="gijon" geojson={geojsonGijon} />} />
             </Routes>
           </div>
-          <Footer />
         </div>
+        <Footer />
+        <Modal isOpen={showFilters} onClose={toggleFilters}>
+          <FilterComponent />
+        </Modal>
       </Router>
     </div>
   );

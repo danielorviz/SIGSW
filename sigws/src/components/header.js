@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Header() {
+function Header({ toggleFilters }) {
   const classes = useStyles();
 
   return (
@@ -24,6 +24,7 @@ function Header() {
         SIGSW
       </Typography>
       <Toolbar>
+      <button onClick={toggleFilters}>Mostrar Filtros</button>
       <Link to="/" className={classes.link}>
           <Button color="inherit">General</Button>
         </Link>
