@@ -39,19 +39,9 @@
 }
 
 .main-container {
-  display: flex;  
+  display: flex;
 }
-
-.filter-container {
-  width: 250px;
-  padding: 20px;  
-  background-color: #f0f0f0; 
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
-}
-
-.map-container {  
-  flex-wrap: wrap; 
+.map-container {   
   flex: 1;
-  padding: 20px; 
-  background-color: #ffffff; 
+  padding: 1rem;
 }

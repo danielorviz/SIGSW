@@ -78,8 +78,7 @@ const MapComponent = (props) => {
     if (map && geojsonData) {
       // Create a GeoJSON layer with the custom icon for markers
       const geojsonLayer = L.geoJSON(geojsonData, {
-        pointToLayer: (feature, latlng) => {
-          // Use the custom icon for each marker
+        pointToLayer: (feature, latlng) => { 
           const { Id, Nombre, Cabezal, Tipo, Voltaje } = feature.properties;
           return L.marker(latlng, { icon: customIcon })
               .bindPopup(`
@@ -93,14 +92,14 @@ const MapComponent = (props) => {
       }).addTo(map);
 
       return () => {
-        map.removeLayer(geojsonLayer); // Remove the previous GeoJSON layer when new data is loaded
+        map.removeLayer(geojsonLayer); 
       };
     }
   }, [map, geojsonData]);
 
   return (
-      <Container maxWidth="lg">
-        <div id="map" style={{ width: '100%', height: '500px' }}></div>
+      <Container maxWidth="lg" >
+        <div id="map" style={{ width: '100%', height: '650px'}}></div>
       </Container>
   );
 };

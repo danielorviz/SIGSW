@@ -46,7 +46,7 @@ function App() {
         </div>
         <Footer />
         <Modal isOpen={showFilters} onClose={toggleFilters}>
-          <FilterComponent />
+          <FilterComponent onFilterChange={(filters) => console.log(filters)} onClose={toggleFilters}/>
         </Modal>
       </Router>
     </div>

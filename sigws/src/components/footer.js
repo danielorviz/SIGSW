@@ -1,23 +1,11 @@
 import React from 'react';
 import { Container, Typography, makeStyles } from '@material-ui/core';
+import '../styles/footer.css';
 
-const useStyles = makeStyles((theme) => ({
-  footer: {
-    backgroundColor: '#333',
-    color: '#fff',
-    padding: theme.spacing(2),
-    marginTop: 'auto',
-    bottom: '0', 
-    position:'fixed',
-    width: '100%'
-  },
-}));
-
-function Footer() {
-  const classes = useStyles();
+function Footer() { 
 
   return (
-    <footer className={classes.footer}>
+    <footer className="footer">
       <Container maxWidth="m">
         <Typography variant="body1" width="100%">
           © {new Date().getFullYear()} Master de Ingeniería Web - Universidad de Oviedo - Sistemas de Información Geográfica y Servicios Web.
@@ -27,7 +15,6 @@ function Footer() {
           Antonio Suárez Crespo - UO270543.
           Katherine Nicole Gómez Zamora - UO302265
         </Typography> 
-    
       </Container>
     </footer>
   );

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../styles/filters.css';
-const FiltroComponent = ({ onFilterChange }) => {
+const FiltroComponent = ({ onFilterChange , onClose }) => {
     const [tipo, setTipo] = useState("");
     const [distancia, setDistancia] = useState(50); 
     const [potencia, setPotencia] = useState(22);
@@ -12,14 +12,15 @@ const FiltroComponent = ({ onFilterChange }) => {
             distancia,
             potencia,
             cabezal,
-        });
+        }); 
+        onClose();
     };
 
     return (
         <div className="filtro-container">
             <h3>Filtros</h3>
             <div>
-                <label htmlFor="tipo">Tipo:</label>
+                <label htmlFor="tipo">Tipo de Cargador:</label>
                 <select
                     id="tipo"
                     value={tipo}
@@ -48,7 +49,7 @@ const FiltroComponent = ({ onFilterChange }) => {
             </div>
 
             <div>
-                <label htmlFor="voltaje">Potencia (kw): {potencia} kw</label>
+                <label htmlFor="voltaje">Potencia (kW): {potencia} kW</label>
                 <input
                     type="range"
                     id="potencia"
