@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import './styles/App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import MapComponent from './components/MapComponent';
 import FilterComponent from "./components/filters";
 import Modal from "./components/Modal";
